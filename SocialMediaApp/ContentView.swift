@@ -6,16 +6,37 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
+    @State private var isLoggedIn = Auth.auth().currentUser != nil
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if isLoggedIn {
+            //MainView()
+        } else {
+            NavigationView {
+                VStack {
+                    NavigationLink(destination: LoginView()) {
+                        Text("Login")
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(8)
+                    }
+                    .padding()
+                    NavigationLink(destination: RegisterView()) {
+                        Text("Registrieren")
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(8)
+                    }
+                    .padding()
+                }
+            }
         }
-        .padding()
     }
 }
 

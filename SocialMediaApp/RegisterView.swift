@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
+import FirebaseAuth
+
+struct RegisterView: View {
+    var body: some View {
+        Text("Register View")
+    }
+}
