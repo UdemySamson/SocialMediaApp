@@ -14,6 +14,7 @@
 		968EAF7F2EEF51CA0019CFD9 /* SocialMediaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968EAF7A2EEF51CA0019CFD9 /* SocialMediaAppApp.swift */; };
 		968EAF812EEF57C80019CFD9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968EAF802EEF57C80019CFD9 /* LoginView.swift */; };
 		968EAF832EEF57F20019CFD9 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968EAF822EEF57F20019CFD9 /* RegisterView.swift */; };
+		96F8B4DC2EF0004700F479FF /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F8B4DB2EF0004700F479FF /* UserSession.swift */; };
 		C9FFFC285F8EA86B074052E3 /* Pods_SocialMediaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A69A32183927EE15E961C90 /* Pods_SocialMediaApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		968EAF7A2EEF51CA0019CFD9 /* SocialMediaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaAppApp.swift; sourceTree = "<group>"; };
 		968EAF802EEF57C80019CFD9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		968EAF822EEF57F20019CFD9 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		96F8B4DB2EF0004700F479FF /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		E3B2FDF378C5CF9FE91767AC /* Pods-SocialMediaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp.release.xcconfig"; path = "Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				968EAF792EEF51CA0019CFD9 /* ContentView.swift */,
 				968EAF802EEF57C80019CFD9 /* LoginView.swift */,
 				968EAF822EEF57F20019CFD9 /* RegisterView.swift */,
+				96F8B4DB2EF0004700F479FF /* UserSession.swift */,
 				968EAF772EEF51CA0019CFD9 /* AppDelegate.swift */,
 				968EAF782EEF51CA0019CFD9 /* Assets.xcassets */,
 			);
@@ -214,6 +217,7 @@
 				968EAF7D2EEF51CA0019CFD9 /* AppDelegate.swift in Sources */,
 				968EAF832EEF57F20019CFD9 /* RegisterView.swift in Sources */,
 				968EAF7E2EEF51CA0019CFD9 /* ContentView.swift in Sources */,
+				96F8B4DC2EF0004700F479FF /* UserSession.swift in Sources */,
 				968EAF812EEF57C80019CFD9 /* LoginView.swift in Sources */,
 				968EAF7F2EEF51CA0019CFD9 /* SocialMediaAppApp.swift in Sources */,
 			);
